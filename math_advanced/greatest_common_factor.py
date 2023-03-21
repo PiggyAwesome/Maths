@@ -1,4 +1,5 @@
-def get_ggf(numbers, log=False):
+def getGCF(numbers: list, log=False):
+    "Find the Greatest Common Factor from a list of integers"
     numbers.sort()
     smol_num = numbers[0]
     div_num = smol_num
@@ -28,5 +29,5 @@ if __name__ == "__main__":
         for num in input(":: Input Number Sequence (Split with semicolon): ").split(";"): numbers.append(int(num)) 
     except: print("Incorrect data. Please double check your syntax and format."); quit()
     log = True
-    print("Found number:", get_ggf(numbers))
+    print("Found number:", getGCF(numbers))
 

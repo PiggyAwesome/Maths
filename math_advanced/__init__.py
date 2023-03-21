@@ -1,0 +1,2 @@
+from greatest_common_factor import getGCF
+from interval_notation import intervalNotation
